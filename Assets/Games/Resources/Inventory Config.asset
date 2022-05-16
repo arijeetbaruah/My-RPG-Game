@@ -1,0 +1,112 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c97821a4676740c4f94a3f4be387df71, type: 3}
+  m_Name: Inventory Config
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: 21300000, guid: d34fc20bab3f50649803cd6a5468dc63, type: 3}
+    - {fileID: 21300000, guid: 33097277a1580944d97c2634219ad128, type: 3}
+    - {fileID: 21300000, guid: 25b4182563ea53d42a1dc551b0f15392, type: 3}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: icons
+      Entry: 7
+      Data: 0|System.Collections.Generic.Dictionary`2[[InventoryType, Assembly-CSharp],[InventoryConfig+PreviewableSprite,
+        Assembly-CSharp]], mscorlib
+    - Name: comparer
+      Entry: 7
+      Data: 1|System.Collections.Generic.EnumEqualityComparer`1[[InventoryType, Assembly-CSharp]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 12
+      Data: 3
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 0
+    - Name: $v
+      Entry: 7
+      Data: InventoryConfig+PreviewableSprite, Assembly-CSharp
+    - Name: sprite
+      Entry: 10
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 1
+    - Name: $v
+      Entry: 7
+      Data: InventoryConfig+PreviewableSprite, Assembly-CSharp
+    - Name: sprite
+      Entry: 10
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 2
+    - Name: $v
+      Entry: 7
+      Data: InventoryConfig+PreviewableSprite, Assembly-CSharp
+    - Name: sprite
+      Entry: 10
+      Data: 2
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+  inventoryRegistory:
+  - {fileID: 5683033938092189863, guid: a9f348b8233194f45be0dd8e397b7e99, type: 3}
+  - {fileID: 2345477869892141332, guid: 17dfff97f2acd694eb55ba98466d8b05, type: 3}
+  - {fileID: 346730023830300059, guid: 36cb1664867fa2a4b8a2f8d3e4aa572a, type: 3}
+  - {fileID: 3207111778196371984, guid: 838881da4a1a5234e935607a49333d76, type: 3}
+  - {fileID: 5194221633096475295, guid: cea60e27a4ff1e54ab97b755fba51f26, type: 3}

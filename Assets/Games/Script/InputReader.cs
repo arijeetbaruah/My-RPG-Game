@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
@@ -10,6 +11,7 @@ namespace RPG.Input
         public event System.Action RunEvent;
         public event System.Action TargetEvent;
         public event System.Action CancelEvent;
+        public event System.Action InventoryEvent;
 
         public Vector2 movementValue { get; private set; }
 
@@ -69,6 +71,25 @@ namespace RPG.Input
             if (!context.performed) return;
 
             CancelEvent?.Invoke();
+        }
+
+        public void OnInventory(InputAction.CallbackContext context)
+        {
+            if (!context.performed) return;
+
+            InventoryEvent?.Invoke();
+        }
+
+        public void SetInputActive(bool active)
+        {
+            if (active)
+            {
+                controls.Player.Disable();
+            }
+            else
+            {
+                controls.Player.Enable();
+            }
         }
     }
 }

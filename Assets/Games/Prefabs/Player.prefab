@@ -392,7 +392,7 @@ GameObject:
   - component: {fileID: 8626148811240406473}
   - component: {fileID: 1450013736485162815}
   - component: {fileID: 2926036123044400979}
-  - component: {fileID: 3663855200817168817}
+  - component: {fileID: 4164265547432522136}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -507,7 +507,7 @@ CharacterController:
   m_SkinWidth: 0.08
   m_MinMoveDistance: 0
   m_Center: {x: 0, y: 0.875, z: 0}
---- !u!114 &3663855200817168817
+--- !u!114 &4164265547432522136
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -547,7 +547,7 @@ MonoBehaviour:
       Data: 
     - Name: 
       Entry: 12
-      Data: 6
+      Data: 1
     - Name: 
       Entry: 7
       Data: 
@@ -559,97 +559,7 @@ MonoBehaviour:
       Data: RPG.Combat.Stat, Assembly-CSharp
     - Name: value
       Entry: 3
-      Data: 113
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 7
-      Data: 
-    - Name: $k
-      Entry: 3
-      Data: 1
-    - Name: $v
-      Entry: 7
-      Data: RPG.Combat.Stat, Assembly-CSharp
-    - Name: value
-      Entry: 3
-      Data: 291
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 7
-      Data: 
-    - Name: $k
-      Entry: 3
-      Data: 2
-    - Name: $v
-      Entry: 7
-      Data: RPG.Combat.Stat, Assembly-CSharp
-    - Name: value
-      Entry: 3
-      Data: 173
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 7
-      Data: 
-    - Name: $k
-      Entry: 3
-      Data: 3
-    - Name: $v
-      Entry: 7
-      Data: RPG.Combat.Stat, Assembly-CSharp
-    - Name: value
-      Entry: 3
-      Data: 121
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 7
-      Data: 
-    - Name: $k
-      Entry: 3
-      Data: 4
-    - Name: $v
-      Entry: 7
-      Data: RPG.Combat.Stat, Assembly-CSharp
-    - Name: value
-      Entry: 3
-      Data: 194
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 7
-      Data: 
-    - Name: $k
-      Entry: 3
-      Data: 5
-    - Name: $v
-      Entry: 7
-      Data: RPG.Combat.Stat, Assembly-CSharp
-    - Name: value
-      Entry: 3
-      Data: 376
+      Data: 195
     - Name: 
       Entry: 8
       Data: 
